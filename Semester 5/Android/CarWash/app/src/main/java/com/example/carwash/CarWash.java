@@ -22,8 +22,6 @@ public class CarWash {
         NumberOfWashes = numberOfWashes;
     }
 
-    public int getNumberOfWashes() { return NumberOfWashes; }
-
     public double getTotalPrice(){
         return total*NumberOfWashes;
     }
